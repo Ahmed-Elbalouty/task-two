@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.drawer{
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+}
+.card-custom .add-to-cart{
+  opacity: 0;
+  transition: .3s;
+}
+.card-custom:hover .add-to-cart{
+  opacity: 1;
+}
+button {
+  border-radius: 8px;
+}
